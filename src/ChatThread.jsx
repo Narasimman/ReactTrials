@@ -14,6 +14,10 @@ export default React.createClass({
   render: function() {
     return (
       <div className="ChatThread">
+      {this.props.messages.map(function(message) {
+        
+        
+      });}
       </div>
     );
   }
